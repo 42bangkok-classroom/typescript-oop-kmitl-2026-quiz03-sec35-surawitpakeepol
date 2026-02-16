@@ -1,10 +1,10 @@
 export class Person {
-    static COUNTRY : string = "Thailand";
+    static COUNTRY : string =  "Thailand"; 
     firstname?: string;
     lastname?: string;
     private age :number = 25;
     getFullName() {
-        return `${this.firstname} ${this.lastname}`;
+         `${this.firstname} ${this.lastname}`;
 
     }
     setAge(age : number ) {
