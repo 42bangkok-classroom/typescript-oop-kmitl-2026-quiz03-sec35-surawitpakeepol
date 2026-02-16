@@ -4,7 +4,7 @@ export class Person {
     lastname?: string;
     private age :number = 25;
     getFullName() {
-         `${this.firstname} ${this.lastname}`;
+        return `${this.firstname} ${this.lastname}`;
 
     }
     setAge(age : number ) {
